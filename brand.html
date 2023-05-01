@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/f64aae6820.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <title> SM - Portfolio </title>
+
+  </head>
+
+  <body>
+
+    <div class="scrollToTop-btn flex-center">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <div class="theme-btn flex-center">
+      <i class="fa-solid fa-moon"></i>
+      <i class="fa-solid fa-sun"></i>
+    </div>
+
+  <header>
+
+    <div class="logo">
+      <a href="#"> <img src="images/logo.png" alt="logo">
+      Graphic <br> Design </a>
+    </div>
+
+    <div id="myNav" class="overlay-n">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content-regular">
+        <ul>
+          <li><a href="index.html"> Gallery </a></li>
+          <li><a href="about.html"> About Me </a></li>
+          <li><a href="connect.html"> Connect </a></li>
+        </ul>
+      </div>
+    </div>
+
+  <span onclick="openNav()">
+      <div class="hamburger">
+        <div class="white-line"></div>
+        <div class="white-line"></div>
+        <div class="white-line"></div>
+      </div>
+  </span>
+
+    <span onclick="openNav()"></span>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html" class="active-bar"> Gallery </a></li>
+        <li><a href="about.html" class="active-bar"> About Me </a></li>
+        <li><a href="connect.html" class="active-bar"> Connect </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="gallery-section">
+
+    <div class="header-page">
+        <h2 class="active"> Brand </h2>
+    </div>
+
+    <div class="gallery" >
+      <a href="images/brand/shoelax_brand_guideline.png">
+        <img src="images/brand/shoelax_brand_guideline.png" alt="Shoelax Brand">
+      </a>
+      <a href="images/brand/shoelax_brand_guideline_2.png">
+        <img src="images/brand/shoelax_brand_guideline_2.png" alt="">
+      </a>
+      <a href="images/brand/shoelax_brand_guideline_3.png">
+        <img src="images/brand/shoelax_brand_guideline_3.png" alt="">
+      </a>
+      <a href="images/brand/shoelax_brand_guideline_4.png">
+        <img src="images/brand/shoelax_brand_guideline_4.png" alt="">
+      </a>
+      <a href="images/brand/shoelax_social_media.png">
+        <img src="images/brand/shoelax_social_media.png" alt="">
+      </a>
+      <a href="images/brand/shoe_box.png">
+        <img src="images/brand/shoe_box.png" alt="">
+      </a>
+    </div>
+  </section>
+
+    <footer class="active-footer">
+        COPYRIGHT © 2023 STEVEN MOSQUEZ
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script>
+      lightGallery(document.querySelector('.gallery'));
+    </script>
+
+    <script src="myscript.js"></script>
+  </body>
+</html>

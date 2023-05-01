@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/f64aae6820.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <title> SM - Portfolio </title>
+
+  </head>
+
+  <body>
+
+    <div class="scrollToTop-btn flex-center">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <div class="theme-btn flex-center">
+      <i class="fa-solid fa-moon"></i>
+      <i class="fa-solid fa-sun"></i>
+    </div>
+
+  <header>
+
+    <div class="logo">
+      <a href="#" class="logo-header"> <img src="images/logo.png" alt="logo">
+      Graphic <br> Design </a>
+    </div>
+
+    <div id="myNav" class="overlay-n">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content-regular">
+        <ul>
+          <li><a href="index.html"> Gallery </a></li>
+          <li><a href="about.html"> About Me </a></li>
+          <li><a href="connect.html"> Connect </a></li>
+        </ul>
+      </div>
+    </div>
+
+  <span onclick="openNav()">
+      <div class="hamburger">
+        <div class="white-line"></div>
+        <div class="white-line"></div>
+        <div class="white-line"></div>
+      </div>
+  </span>
+
+    <span onclick="openNav()"></span>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html" class="active-bar"> Gallery </a></li>
+        <li><a class="active" href="#" > About Me </a></li>
+        <li><a href="connect.html" class="active-bar"> Connect </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-information-1 about-information-section">
+
+    <div class="header-page">
+        <h2 class="active" >About Me</h2>
+    </div>
+
+      <div class="about-information-container flex-center">
+        <div class="about-information-content flex-center">
+          <div class="about-information-img">
+            <img src="images/me_avatar.png" alt="Avator">
+          </div>
+          <div class="about-information-info">
+            <div class="about-information-description">
+              <h2> HELLO THERE </h2>
+                <p>
+                  My name is Steven Mosquez, and I am a graphic designer. My great passion is to create designs that touch people’s hearts and bring intense aspiration.
+                  The combination of colors and abstract elements keeps the creativity alive. My artwork explores new ways to solve problems and find the best solution.
+                </p>
+              <a href="#skills" class="about-btn"> Skills </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="skill-section" id="skills">
+
+    <div class="header-page">
+        <h2 class="active"> Skills </h2>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="skills-info eduacation-all">
+
+          <div class="education">
+            <h4><label> Education </label></h4>
+            <ul class="edu-list">
+              <li class="item">
+                <span class="year box-1"> 2020 </span>
+                <p> <span> Bachelor of Fine Arts <br> Graphic Design </span> <br> New Jersey City University </p>
+              </li>
+              <li class="item">
+                <span class="year box-2">2017</span>
+                <p> <span> Associate of Fine Arts <br> Studio Arts (Computer Arts Option) </span> <br> Hudson County Community College </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="education">
+            <h4><label> Skills </label></h4>
+            <ul class="bars">
+
+              <li class="bar">
+                <div class="info">
+                  <span> Adobe Photoshop </span>
+                  <span> 100% </span>
+                </div>
+                <div class="line photoshop">
+                </div>
+              </li>
+
+              <li class="bar">
+                <div class="info">
+                  <span> Adobe Illustrator </span>
+                  <span> 100% </span>
+                </div>
+                <div class="line illustrator">
+                </div>
+              </li>
+
+              <li class="bar">
+                <div class="info">
+                  <span> Adobe Indesign </span>
+                  <span> 100% </span>
+                </div>
+                <div class="line indesign">
+                </div>
+              </li>
+
+              <li class="bar">
+                <div class="info">
+                  <span> HTML </span>
+                  <span> 90% </span>
+                </div>
+                <div class="line html">
+                </div>
+              </li>
+              <li class="bar">
+                <div class="info">
+                  <span> CSS </span>
+                  <span> 90%  </span>
+                </div>
+                <div class="line css">
+                </div>
+              </li>
+              <li class="bar">
+                <div class="info">
+                  <span> Javascript </span>
+                  <span> 70% </span>
+                </div>
+                <div class="line javascript">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="education">
+            <h4> <label> Certification </label></h4>
+            <ul class="edu-list">
+              <li class="item">
+                <span class="year box-3">2022</span>
+                <p> <span> Responsive Web Design </span>  <br> freeCodeCamp</p>
+              </li>
+              <li class="item">
+                <span class="year box-4">2022</span>
+                <p><span>  JavaScript Algorithms <br> and Data Structures </span> <br> freeCodeCamp</p>
+              </li>
+              <li class="item">
+                <span class="year box-5">2022</span>
+                <p> <span> Front End Development Libraries </span> <br> freeCodeCamp</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <footer class="active-footer">
+        COPYRIGHT © 2023 STEVEN MOSQUEZ
+    </footer>
+
+    <script src="myscript.js"></script>
+  </body>
+</html>

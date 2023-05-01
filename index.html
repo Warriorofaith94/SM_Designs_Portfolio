@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/f64aae6820.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <title> SM - Portfolio </title>
+
+  </head>
+
+  <body>
+
+    <div class="scrollToTop-btn flex-center">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <div class="theme-btn flex-center">
+      <i class="fa-solid fa-moon"></i>
+      <i class="fa-solid fa-sun"></i>
+    </div>
+
+  <header>
+
+    <div class="logo">
+      <a href="#" class="logo-header"> <img src="images/logo.png" alt="logo">
+      Graphic <br> Design </a>
+    </div>
+
+    <div id="myNav" class="overlay-n">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content-regular">
+        <ul>
+          <li><a href="index.html"> Gallery </a> </li>
+          <li><a href="about.html"> About Me </a></li>
+          <li><a href="connect.html"> Connect </a></li>
+        </ul>
+      </div>
+    </div>
+
+  <span onclick="openNav()">
+      <div class="hamburger">
+        <div class="white-line"></div>
+        <div class="white-line"></div>
+        <div class="white-line"></div>
+      </div>
+  </span>
+
+    <span onclick="openNav()"></span>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a class="active" href="#" > Gallery </a></li>
+        <li><a class="active-bar" href="about.html"> About Me </a></li>
+        <li><a class="active-bar" href="connect.html"> Connect </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="portfolio-section">
+
+    <div class="header-page">
+        <h2 class="active"> Gallery </h2>
+    </div>
+
+    <div class="portfolio-row">
+
+        <div class="portfolio-column">
+          <div class="portfolio-container">
+          <img src="images/social_graphic/social_graphic_1.png" alt="Social Graphic" class="portfolio-image">
+              <div class="portfolio-overlay">
+                  <a href="social_media_ad.html"><div class="portfolio-text"> Social Media Ads </div> </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="portfolio-column">
+          <div class="portfolio-container">
+          <img src="images/brand/shoelax_cover.png" alt="Brand" class="portfolio-image">
+              <div class="portfolio-overlay">
+                  <a href="brand.html"><div class="portfolio-text"> Brand </div> </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="portfolio-column">
+          <div class="portfolio-container">
+          <img src="images/ux_ui/booking_app_cover.png" alt="Booking App" class="portfolio-image">
+              <div class="portfolio-overlay">
+                  <a href="ux_ui.html"><div class="portfolio-text"> UX / UI </div> </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="portfolio-column">
+          <div class="portfolio-container">
+          <img src="images/book/book_cover.png" alt="Book" class="portfolio-image">
+              <div class="portfolio-overlay">
+                  <a href="book.html"><div class="portfolio-text"> Books </div> </a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+    <footer class="active-footer">
+        COPYRIGHT © 2023 STEVEN MOSQUEZ
+    </footer>
+
+    <script src="myscript.js"></script>
+  </body>
+</html>
