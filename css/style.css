@@ -149,7 +149,7 @@ section{
 .header-page {
   font-size: 30px;
   text-align: center;
-  color: #F2B749;
+  color: var(--third-color);
   margin: 40px;
 }
 
